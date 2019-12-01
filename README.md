@@ -43,3 +43,9 @@ This repo contains solutions for coding assessments
   
 * [symbiont.io](https://symbiont.io/)
   * Problem: Build a clone of $ cat /dev/random in the scripting language of your choice, generating your own entropy.
+  
+* [mediamath](https://www.mediamath.com/)
+  * Ads crawler: coming soon
+
+* [datadog](datadoghq.com)
+  * Http log  monitoring system: coming soon
