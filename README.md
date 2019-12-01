@@ -39,3 +39,6 @@ This repo contains solutions for coding assessments
   
   Morrissey,Radiohead\n
   ```
+  
+* [symbiont.io](https://symbiont.io/)
+  * Problem: Build a clone of $ cat /dev/random in the scripting language of your choice, generating your own entropy.
