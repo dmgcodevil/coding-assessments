@@ -1,6 +1,14 @@
 # coding-assessments
 This repo contains solutions for coding assessments
 
+**ALL THE SOLUTIONS WERE APPROVED BY COMPANIES TEAMS. 100% VERIFIED, ORGANIC**
+
+## Feedbacks
+
+* We liked your code. When do you have a 4hr block for an "on-site?
+* Thanks again for submitting the code sample. I had a chance to review it with the team we were impressed, nice work!
+* Thank you for your Challenge submission! After reviewing your solution internally, we were quite impressed.
+
 ## List of companies
 *  [Citrine.io](https://citrine.io/):
     * Write an e-mail to our CTO to convince him that implementing a CI/CD workﬂow would be a worthy investmen
@@ -31,3 +39,6 @@ This repo contains solutions for coding assessments
   
   Morrissey,Radiohead\n
   ```
+  
+* [symbiont.io](https://symbiont.io/)
+  * Problem: Build a clone of $ cat /dev/random in the scripting language of your choice, generating your own entropy.
