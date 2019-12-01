@@ -1,0 +1,28 @@
+Hi mister X
+
+My name is Roman, I'm working on the Data Ingestion pipeline.
+I want to draw your attention to the current situation about the way our team builds and deploys our projects. 
+To build and deploy the project each developer has to perform the following steps:
+ Pull latest changes  from github repository
+ Build the project locally and run the tests. 
+Deploy the build to an environment. Make sure that it's up and running.
+There are a set of problems associated with this process:
+
+1. Sometimes people forget to pull the latest changes, commit their changes before deployment. It might result in a  situation when other developers won't see the changes that are already deployed, which in turn can lead to serious issues in production;
+
+2. Since we have a  large codebase and a large number of tests it takes around 15-20 minutes for the build process to complete. A developer cannot continue working on new features until the build process is fully completed.  It affects the efficiency and productivity of our team. Even worse, sometimes people forget to run the tests before deployment. Thus a feature deployed to production might contain some bugs. Every time our customers find bugs, it affects our reputation and makes us look unprofessional;
+
+3. We don't have a tool that will run automated tests automatically whenever some changes made to the master branch. If we had such a tool we would catch potential bugs and make our product more stable;
+
+4. The deployment process isn' t efficient because developers have to negotiate the deployment procedure. If any two developers will try to deploy their builds at the same time it can lead to unpredictable results, e.g.: application downtime, incompatible configuration, etc;
+
+I just listed the problems that we have faced so far, no one knows what kind of problems we will face in the future.
+
+Having said that, my suggestion is to use a technique called CI (Continuous Integration).  It will resolve the problems we currently have. With the new approach developers working on new features or fixing bugs will push their changes to their feature or bugfix branches (e.g. : feature/xyz or bugfix/xyz) accordingly, each branch is built and tested separately from the master.  Once all tests passing, the branch can be merged into the master branch. After that, a  build for the master branch will be triggered. If the master build is successful it can be deployed using a specific deployment job. The deployment job is responsible for shutting down the running application, cleaning up configuration files and releasing allocated resources. No concurrent deployment processes are allowed and it's fully automated.  Also, the deployment job will make sure that the application is up and running. 
+
+With the help of CI we can improve the efficiency and productivity of our team, as well as the quality of our products. 
+
+If you have any questions regarding this letter please reach me out and I will do my best to answer those questions.
+
+Thanks,
+Roman
