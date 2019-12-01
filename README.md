@@ -1,6 +1,8 @@
 # coding-assessments
 This repo contains solutions for coding assessments
 
+**ALL THE SOLUTIONS WERE APPROVED BY COMPANIES TEAMS. 100% VERIFIED, ORGANIC**
+
 ## List of companies
 *  [Citrine.io](https://citrine.io/):
     * Write an e-mail to our CTO to convince him that implementing a CI/CD workﬂow would be a worthy investmen
