@@ -8,6 +8,7 @@ This repo contains solutions for coding assessments
 * We liked your code. When do you have a 4hr block for an "on-site?
 * Thanks again for submitting the code sample. I had a chance to review it with the team we were impressed, nice work!
 * Thank you for your Challenge submission! After reviewing your solution internally, we were quite impressed.
+* Thanks for this! We'd like to have you come in for an onsite interview.
 
 ## List of companies
 *  [Citrine.io](https://citrine.io/):
