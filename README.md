@@ -9,6 +9,7 @@ This repo contains solutions for coding assessments
 * Thanks again for submitting the code sample. I had a chance to review it with the team we were impressed, nice work!
 * Thank you for your Challenge submission! After reviewing your solution internally, we were quite impressed.
 * Thanks for this! We'd like to have you come in for an onsite interview.
+* I've just touched base with the team and we would love to move forward with a technical phone interview!
 
 ## List of companies
 *  [Citrine.io](https://citrine.io/):
