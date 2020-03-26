@@ -49,7 +49,7 @@ This repo contains solutions for coding assessments
   * Two leetcode problems + System design
   
 * [mediamath](https://www.mediamath.com/)
-  * Ads crawler: coming soon
+  * Ads crawler
 
 * [datadog](datadoghq.com)
-  * Http log  monitoring system: coming soon
+  * Http log  monitoring system
